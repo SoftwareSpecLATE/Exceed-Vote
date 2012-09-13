@@ -13,6 +13,7 @@ int main(int argc, const char * argv[])
     int n[3][5] = {0};
     int i,j;
     printf("EDIT NOW");
+    printf("กาลครั้งหนึ่งนานมาแล้ว มา ผช คนหนึ่ง เป็นคนตัวเล็ก หัวฟู และใจบาป วันภารกิจ ให้ไปดูแลแกะฝูงหนึ่ง...")
     // qarayu
 }
 
