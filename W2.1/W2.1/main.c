@@ -12,5 +12,7 @@ int main(int argc, const char * argv[])
 {
     int n[3][5] = {0};
     int i,j;
+    printf("EDIT NOW");
+    // qarayu
 }
 
