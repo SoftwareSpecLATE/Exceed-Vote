@@ -13,7 +13,7 @@ public class UI {
 	private final JLabel BallotLeftLabel = new JLabel("Ballot left  :");
 	
 	private static ScoreBox scorebox = new ScoreBox();
-	public String ballot = Main.getBallot();
+	public String ballot = Vote.getBallot();
 
 	public JPanel createContentPane() {
 		final JPanel panel = new JPanel();
