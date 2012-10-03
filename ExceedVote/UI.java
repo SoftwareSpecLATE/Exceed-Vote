@@ -1,34 +1,19 @@
 import javax.swing.*;
-import javax.swing.event.ListSelectionListener;
-
-import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dialog;
-import java.awt.Rectangle;
-import java.awt.Scrollbar;
 import java.awt.Point;
 import java.awt.ComponentOrientation;
-import java.awt.Dimension;
-import java.awt.Panel;
-import java.awt.event.KeyEvent;
-import javax.swing.event.ListSelectionEvent;
-import java.awt.Button;
-import java.awt.Label;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class UI {
-	private JList list;
+	private JList<?> list;
 	private final JLabel label = new JLabel("Describe");
 	private static final JMenuBar menuBar = new JMenuBar();
 	private static final JMenu mnNewMenu = new JMenu("Menu");
 	private final JLabel BallotLeftLabel = new JLabel("Ballot left  :");
-	private static Vote v = new Vote();
+	
 	private static ScoreBox scorebox = new ScoreBox();
-	private static String ballot = "0";
+	public String ballot = Main.getBallot();
 
 	public JPanel createContentPane() {
 		final JPanel panel = new JPanel();
@@ -42,7 +27,7 @@ public class UI {
 				"Team 6", "Team 7", "Team 8", "Team 9", "Team 10", "Team 11",
 				"Team 12" };
 
-		list = new JList(listData);
+		list = new JList<Object>(listData);
 		JScrollPane scrollPane = new JScrollPane(list);
 		scrollPane.setBounds(50, 40, 200, 200);
 		panel.add(scrollPane);
@@ -100,7 +85,7 @@ public class UI {
 		return panel;
 	}
 
-	private static void createAndShowGUI() {
+	static void createAndShowGUI() {
 
 		JFrame frame = new JFrame("Vote");
 		frame.setLocation(new Point(500, 200));
@@ -117,20 +102,5 @@ public class UI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(600, 400);
 
-	}
-
-	public static void main(String[] args) {
-		SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-
-				String type = v.getType();
-				if (type == "student") {
-					ballot = "1";
-				} else if (type == "techer") {
-					ballot = "2";
-				}
-				createAndShowGUI();
-			}
-		});
 	}
 }
