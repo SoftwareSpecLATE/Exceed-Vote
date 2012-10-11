@@ -15,7 +15,7 @@ public class UI {
 	private final JLabel BallotLeftLabel = new JLabel("Ballot left  :");
 	
 	private static ScoreBox scorebox = new ScoreBox();
-	public String ballot = Vote.getBallot();
+	String ballot = Vote.getBallot();
 
 	public JPanel createContentPane() {
 		final JPanel panel = new JPanel();
@@ -59,7 +59,7 @@ public class UI {
 		if (ballot == "1")
 			statusAns.setText("Student");
 		if (ballot == "2")
-			statusAns.setText("Techer");
+			statusAns.setText("Teacher");
 		panel.add(statusAns);
 
 		voteButton.addActionListener(new ActionListener() {

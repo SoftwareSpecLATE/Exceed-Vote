@@ -3,13 +3,13 @@ package GUI;
 public class Vote {
 	private static String ballot = "0";
 
-	public String VoteBallot() {
-		if (getType() == "student") {
+	public String VoteBallot() 
+	{	
+		if (getType().toLowerCase() == "student") {
 			ballot = "1";
-		} else if (getType() == "techer") {
+		} else if (getType().toLowerCase() == "teacher") {
 			ballot = "2";
-		}
-		
+		}	
 		return ballot;
 	}
 
@@ -22,16 +22,13 @@ public class Vote {
 	}
 	
 	/**
-	 * check type of user (student, techer, EC or admin)
+	 * check type of user (student, teacher, EC or admin)
 	 * @return type of user
 	 */
 	public String getType() {
 		return "student";
 	}
 
-	/**
-	 * check team in exceedvote.
-	 * @return team name
-	 */
+
 	
 }

@@ -6,8 +6,7 @@ public class ScoreBox {
 	
 	public void addScore(int select) {
 		team[select]++;
-		
-		
+				
 		////////// To check score //////////
 		for(int i=0; i<12; i++)
 		{

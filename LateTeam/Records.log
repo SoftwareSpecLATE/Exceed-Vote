@@ -57,3 +57,9 @@
 09:14:15 ERROR Main:testlogging - this is an error message
 09:14:15 FATAL Main:testlogging - this is a fatal message
 09:14:17 FATAL Main:main - exiting
+10:45:38 INFO GUI.Main:testlogging - === test logging messages ===
+10:45:38 INFO GUI.Main:testlogging - this is an info message
+10:45:38 WARN GUI.Main:testlogging - this is a warning message
+10:45:38 ERROR GUI.Main:testlogging - this is an error message
+10:45:38 FATAL GUI.Main:testlogging - this is a fatal message
+10:45:38 FATAL GUI.Main:main - exiting
