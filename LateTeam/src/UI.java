@@ -22,11 +22,10 @@ public class UI {
 
 		voteButton.setBounds(225, 275, 100, 30);
 		panel.add(voteButton);
-
-		String listData[] = { "Team 1", "Team 2", "Team 3", "Team 4", "Team 5",
-				"Team 6", "Team 7", "Team 8", "Team 9", "Team 10", "Team 11",
-				"Team 12" };
-
+		
+		Vote v = new Vote();
+		String listData[] = v.getTeam(); 
+		
 		list = new JList(listData);
 		JScrollPane scrollPane = new JScrollPane(list);
 		scrollPane.setBounds(50, 40, 200, 200);
@@ -49,7 +48,7 @@ public class UI {
 
 		JLabel typeOf = new JLabel("Status : ");
 		typeOf.setForeground(Color.RED);
-		typeOf.setBounds(450, 320, 50, 20);
+		typeOf.setBounds(450, 320, 100, 20);
 		panel.add(typeOf);
 
 		JLabel statusAns = new JLabel("0");
