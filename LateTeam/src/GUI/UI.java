@@ -1,3 +1,5 @@
+package GUI;
+
 import javax.swing.*;
 import java.awt.Color;
 import java.awt.Point;
@@ -23,8 +25,8 @@ public class UI {
 		voteButton.setBounds(225, 275, 100, 30);
 		panel.add(voteButton);
 		
-		Vote v = new Vote();
-		String listData[] = v.getTeam(); 
+		TeamTest teamtest = new TeamTest();
+		String listData[] = teamtest.getTeam(); 
 		
 		list = new JList(listData);
 		JScrollPane scrollPane = new JScrollPane(list);
