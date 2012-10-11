@@ -7,13 +7,13 @@ public class Main {
 
 	public void testlogging() {
 		Logger logger = Logger.getLogger(this.getClass());
-		logger.info("=== test logging messages ===");
-		logger.trace("this is a trace message");
-		logger.debug("this is a debug message");
+//		logger.info("=== test logging messages ===");
+//		logger.trace("this is a trace message");
+//		logger.debug("this is a debug message");
 		logger.info("this is an info message");
-		logger.warn("this is a warning message");
-		logger.error("this is an error message");
-		logger.fatal("this is a fatal message");
+//		logger.warn("this is a warning message");
+//		logger.error("this is an error message");
+//		logger.fatal("this is a fatal message");
 	}
 
 	public static void initJavaLogger() {
@@ -22,7 +22,7 @@ public class Main {
 				.getLogger("");
 		// get System property named "logfile", default to "example.log"
 		// user can set this using command line switch -dlogfile=somefile.txt
-		String logfile = System.getProperty("logfile", "Records.log");
+		String logfile = System.getProperty("logfile", "Records.txt");
 
 		try {
 			if (logfile != null)
@@ -46,8 +46,8 @@ public class Main {
 	public static void main(String[] args) {
 
 		// test logging
-		Main main = new Main();
-		main.testlogging();
+		//Main main = new Main();
+		//main.testlogging();
 
 		v.VoteBallot();
 		UI.createAndShowGUI();

@@ -1,0 +1,14 @@
+11:18:06 FATAL GUI.Main:main - exiting
+11:18:10 INFO GUI.ScoreBox:addScore - student vote for Team 6
+11:18:10 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 5 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 6 : 1
+11:18:10 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:18:10 INFO GUI.ScoreBox:addScore - Team 12 : 0

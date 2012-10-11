@@ -63,3 +63,121 @@
 10:45:38 ERROR GUI.Main:testlogging - this is an error message
 10:45:38 FATAL GUI.Main:testlogging - this is a fatal message
 10:45:38 FATAL GUI.Main:main - exiting
+10:50:43 INFO GUI.Main:testlogging - === test logging messages ===
+10:50:43 INFO GUI.Main:testlogging - this is an info message
+10:50:43 WARN GUI.Main:testlogging - this is a warning message
+10:50:43 ERROR GUI.Main:testlogging - this is an error message
+10:50:43 FATAL GUI.Main:testlogging - this is a fatal message
+10:50:44 FATAL GUI.Main:main - exiting
+10:51:13 INFO GUI.Main:testlogging - === test logging messages ===
+10:51:13 INFO GUI.Main:testlogging - this is an info message
+10:51:13 WARN GUI.Main:testlogging - this is a warning message
+10:51:13 ERROR GUI.Main:testlogging - this is an error message
+10:51:13 FATAL GUI.Main:testlogging - this is a fatal message
+10:51:14 FATAL GUI.Main:main - exiting
+10:51:39 INFO GUI.Main:testlogging - === test logging messages ===
+10:51:39 INFO GUI.Main:testlogging - this is an info message
+10:51:39 WARN GUI.Main:testlogging - this is a warning message
+10:51:39 ERROR GUI.Main:testlogging - this is an error message
+10:51:39 FATAL GUI.Main:testlogging - this is a fatal message
+10:51:40 FATAL GUI.Main:main - exiting
+11:06:32 INFO GUI.Main:testlogging - === test logging messages ===
+11:06:32 INFO GUI.Main:testlogging - this is an info message
+11:06:32 WARN GUI.Main:testlogging - this is a warning message
+11:06:32 ERROR GUI.Main:testlogging - this is an error message
+11:06:32 FATAL GUI.Main:testlogging - this is a fatal message
+11:06:33 FATAL GUI.Main:main - exiting
+11:06:40 INFO GUI.ScoreBox:addScore - student vote for [I@5d2412e7
+11:06:40 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 5 : 1
+11:06:40 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:06:40 INFO GUI.ScoreBox:addScore - Team 12 : 0
+11:08:41 INFO GUI.Main:testlogging - === test logging messages ===
+11:08:41 INFO GUI.Main:testlogging - this is an info message
+11:08:41 WARN GUI.Main:testlogging - this is a warning message
+11:08:41 ERROR GUI.Main:testlogging - this is an error message
+11:08:41 FATAL GUI.Main:testlogging - this is a fatal message
+11:08:42 FATAL GUI.Main:main - exiting
+11:08:45 INFO GUI.ScoreBox:addScore - student vote for [I@506835fb
+11:08:45 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 5 : 1
+11:08:45 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:08:45 INFO GUI.ScoreBox:addScore - Team 12 : 0
+11:12:51 INFO GUI.Main:testlogging - === test logging messages ===
+11:12:51 INFO GUI.Main:testlogging - this is an info message
+11:12:51 WARN GUI.Main:testlogging - this is a warning message
+11:12:51 ERROR GUI.Main:testlogging - this is an error message
+11:12:51 FATAL GUI.Main:testlogging - this is a fatal message
+11:12:52 FATAL GUI.Main:main - exiting
+11:13:29 FATAL GUI.Main:main - exiting
+11:13:35 INFO GUI.ScoreBox:addScore - student vote for Team 1
+11:13:35 INFO GUI.ScoreBox:addScore - Team 1 : 1
+11:13:35 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 5 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:13:35 INFO GUI.ScoreBox:addScore - Team 12 : 0
+11:13:49 FATAL GUI.Main:main - exiting
+11:13:53 INFO GUI.ScoreBox:addScore - student vote for Team 4
+11:13:53 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 4 : 1
+11:13:53 INFO GUI.ScoreBox:addScore - Team 5 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:13:53 INFO GUI.ScoreBox:addScore - Team 12 : 0
+11:15:53 FATAL GUI.Main:main - exiting
+11:15:58 INFO GUI.ScoreBox:addScore - student vote for Team 2
+11:15:58 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 2 : 1
+11:15:58 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 5 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:15:58 INFO GUI.ScoreBox:addScore - Team 12 : 0
+11:16:57 FATAL GUI.Main:main - exiting
+11:17:01 INFO GUI.ScoreBox:addScore - student vote for Team 5
+11:17:01 INFO GUI.ScoreBox:addScore - Team 1 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 2 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 3 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 4 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 5 : 1
+11:17:01 INFO GUI.ScoreBox:addScore - Team 6 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 7 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 8 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 9 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 10 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 11 : 0
+11:17:01 INFO GUI.ScoreBox:addScore - Team 12 : 0
