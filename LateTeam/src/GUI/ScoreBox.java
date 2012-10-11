@@ -1,4 +1,4 @@
-package GUI;
+package gui;
 
 import org.apache.log4j.Logger;
 

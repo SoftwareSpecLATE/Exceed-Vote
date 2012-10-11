@@ -1,4 +1,4 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
 import java.awt.Color;
@@ -8,15 +8,23 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class UI {
+	/** create list of team name  */
 	private JList list;
+	/** create label for details of team */
 	private final JLabel label = new JLabel("Describe");
+	/** create menu bar for edit */
 	private static final JMenuBar menuBar = new JMenuBar();
 	private static final JMenu mnNewMenu = new JMenu("Menu");
+	
 	private final JLabel BallotLeftLabel = new JLabel("Ballot left  :");
 	
+	/** create score box */
 	private static ScoreBox scorebox = new ScoreBox();
 	String ballot = Vote.getBallot();
 
+	/** 
+	 * create GUI for vote page
+	 */
 	public JPanel createContentPane() {
 		final JPanel panel = new JPanel();
 		panel.setLayout(null);

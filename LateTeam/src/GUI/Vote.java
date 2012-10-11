@@ -1,4 +1,4 @@
-package GUI;
+package gui;
 
 public class Vote {
 	private static String ballot = "0";
@@ -14,7 +14,7 @@ public class Vote {
 	}
 
 	/**
-	 * get ballot.
+	 * get scroe ballot.
 	 * @return ballot score
 	 */
 	public static String getBallot() {
