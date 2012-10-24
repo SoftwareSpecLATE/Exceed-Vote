@@ -1,8 +1,13 @@
-package gui;
+
 
 public class Vote {
+	/** Set ballot score */
 	private static String ballot = "0";
-
+	
+	/**
+	 * get ballot for type of user
+	 * @return ballot point
+	 */
 	public String VoteBallot() 
 	{	
 		if (getType().toLowerCase() == "student") {
@@ -28,7 +33,4 @@ public class Vote {
 	public String getType() {
 		return "student";
 	}
-
-
-	
 }

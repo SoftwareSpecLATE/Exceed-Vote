@@ -1,4 +1,4 @@
-package gui;
+
 
 import javax.swing.*;
 import java.awt.Color;
@@ -7,19 +7,25 @@ import java.awt.ComponentOrientation;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class UI {
+public class UIVote {
 	/** create list of team name  */
 	private JList list;
+	
 	/** create label for details of team */
 	private final JLabel label = new JLabel("Describe");
+	
 	/** create menu bar for edit */
 	private static final JMenuBar menuBar = new JMenuBar();
+	
+	/** set name of menu bar */
 	private static final JMenu mnNewMenu = new JMenu("Menu");
 	
+	/** set name of JLabel */
 	private final JLabel BallotLeftLabel = new JLabel("Ballot left  :");
 	
 	/** create score box */
 	private static ScoreBox scorebox = new ScoreBox();
+	
 	String ballot = Vote.getBallot();
 
 	/** 
@@ -73,12 +79,12 @@ public class UI {
 		voteButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				int bb = Integer.parseInt(ballot);
-
 				int select = list.getSelectedIndex();
 				int n = JOptionPane.showConfirmDialog(panel, "You Selected : "
 						+ list.getSelectedValue(), "Confirm",
 						JOptionPane.YES_NO_OPTION);
-				if (n == 0) {	
+				
+				     if(n == 0) {	
 					if (bb - 1 >= 0) {
 						bb -= 1;
 						ballot = "" + bb;
@@ -94,6 +100,9 @@ public class UI {
 		return panel;
 	}
 
+	/**
+	 * show GUI interface for vote page
+	 */
 	static void createAndShowGUI() {
 
 		JFrame frame = new JFrame("Vote");
@@ -101,7 +110,7 @@ public class UI {
 		frame.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 		frame.setVisible(true);
 
-		UI ui = new UI();
+		UIVote ui = new UIVote();
 
 		frame.setJMenuBar(menuBar);
 
@@ -110,6 +119,5 @@ public class UI {
 
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(600, 400);
-
 	}
 }

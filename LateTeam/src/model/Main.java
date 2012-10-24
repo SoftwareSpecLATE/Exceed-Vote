@@ -1,4 +1,4 @@
-package gui;
+
 
 import org.apache.log4j.Logger;
 //import org.apache.log4j.Level;
@@ -14,6 +14,7 @@ public class Main {
 		java.util.logging.Handler handler = null;
 		java.util.logging.Logger logger = java.util.logging.Logger
 				.getLogger("");
+		
 		// get System property named "logfile", default to "example.log"
 		// user can set this using command line switch -dlogfile=somefile.txt
 		String logfile = System.getProperty("logfile", "Records.log");
@@ -41,7 +42,7 @@ public class Main {
 		//main.testlogging();
 
 		v.VoteBallot();
-		UI.createAndShowGUI();
+		UIVote.createAndShowGUI();
 
 		// Log program exit so we can see that "fatal" does.
 		Logger logger = Logger.getLogger(Main.class);

@@ -1,9 +1,9 @@
-package gui;
+
 
 public class TeamTest {
 	
 	/**
-	 * check team in exceedvote.
+	 * check team in ExceedVote.
 	 * @return team name
 	 */
 	public String[] getTeam() {
